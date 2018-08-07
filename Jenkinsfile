@@ -8,6 +8,6 @@ node{
     } 
   }
   stage ("running appscan on cloud"){
-      appscan application: '18f3c3ca-a689-e811-ad5d-00259057d989', credentials: 'ASOC_Prod', name: 'ASOC_Prod', scanner:static_analyzer('C:\Users\kalra_m\eclipse-workspace\SimpleIOT-Maven'), type: 'Static Analyzer'
+      appscan application: '955fa556-8ef7-4279-8bdd-9114f5c58069', credentials: 'ASOC_Prod', name: 'SimpleIOTASOC_Test', scanner: static_analyzer('C:\\Users\\kalra_m\\eclipse-workspace\\SimpleIOT-Maven'), type: 'Static Analyzer'
   }
 }
