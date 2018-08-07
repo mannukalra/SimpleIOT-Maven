@@ -3,7 +3,7 @@ node{
 	git 'https://github.com/mannukalra/SimpleIOT-Maven.git'
   }
   stage ('Build') {
-	withMaven(jdk: 'jdk8', maven: 'MVNLocal') {
+	withMaven(jdk: 'jdk8', maven: 'MVN_Local') {
       bat 'mvn clean install'
     } 
   }
